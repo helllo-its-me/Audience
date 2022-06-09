@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cell {
+  display: flex;
+  margin-left: 10px;
+}
+
+.js-cell {
+  width: 90%;
+  border: 1px dashed rgba(182, 160, 160, 1);
+  border-radius: 5px;
+  min-height: 111px;
+  height: fit-content;
+  background: rgba(168, 255, 154, 0.14);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0px;
+  padding: 10px;
+  padding-bottom: 6px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.difference .js-cell {
+  min-height: 90%;
+  background: rgba(255, 217, 217, 0.4);
+  margin: 10px;
+  flex-direction: row;
+  width: calc(100% - 20px);
+  margin-top: 4px;
+  justify-content: space-between;
+}
+.difference .cell button.btn-close {
+  display: none;
+}
+
+.difference .cell {
+  margin-left: 0;
+  width: 99%;
+  height: 100%;
+}
+
+.indropElement {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 85%;
+  text-align: left;
+}
+
+.indropElement:hover {
+  overflow: visible;
+  margin-left: 0;
+  height: auto;
+}
+
+.indropElement img {
+  width: 13px;
+  margin-right: 5px;
+}
+
+/* for button + Add union block */
+.cellDivButtonContainer {
+  width: calc((100% - 40px) / 3);
+  height: fit-content;
+  line-height: 0;
+  text-align: left;
+}
+
+.blockForAddButton {
+  flex-direction: column;
+  justify-content: center;
+  align-items: 'center';
+  border: 0.3px dashed;
+  border-radius: 5px;
+  height: 107px;
+  width: calc(100% - 10px);
+  margin: 23px 0px 0px 10px;
+}
+
+.cellDivButtonContainer .blockForAddButton .btnAddUnionBlock {
+  margin: 0 auto;
+  background-color: rgba(20, 142, 0, 0.5);
+  color: white;
+}

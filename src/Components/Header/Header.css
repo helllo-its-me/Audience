@@ -1,0 +1,37 @@
+.header {
+  /* background: rgba(30, 77, 133, 0.26); */
+  background: linear-gradient(45deg, cadetblue, transparent);
+  height: 65px;
+  margin-bottom: 25px;
+}
+.headerName {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.headerName img {
+  width: 150px;
+}
+
+.navigation {
+  width: 50%;
+  align-self: center;
+  margin-top: 12px;
+}
+
+.navigation a {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(29, 51, 130, 1);
+  padding: 7px 37px 15px;
+}
+
+.navigation a.active {
+  background: rgba(255, 255, 255, 0.37);
+  border-top: 7px solid rgba(50, 76, 168, 0.32);
+  border-radius: 3px 3px 0px 0px;
+}
+
+.navigation a:hover {
+  color: rgba(29, 51, 130, 1) !important;
+}

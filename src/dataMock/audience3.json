@@ -1,0 +1,109 @@
+{
+    "activeTo": "2021-10-31T03:00:00",
+    "uploadTo": [
+        "yandex",
+        "Google",
+        "Mail"
+    ],
+    "author": null,
+    "hasAccess": null,
+    "expression": {
+        "innerExpressions": [
+            {
+                "data": [
+                    {
+                        "id": 1,
+                        "type": 0
+                    },
+                    {
+                        "id": 2,
+                        "type": 0
+                    },
+                    {
+                        "id": 3,
+                        "type": 0
+                    }
+                ],
+                "type": 1,
+                "name": ""
+            },
+            {
+                "data": [
+                    {
+                        "id": 4,
+                        "type": 0
+                    },
+                    {
+                        "id": 5,
+                        "type": 0
+                    },
+                    {
+                        "id": 6,
+                        "type": 0
+                    },
+                    {
+                        "id": 7,
+                        "type": 0
+                    }
+                ],
+                "type": 0,
+                "name": "Телефоны"
+            },
+            {
+                "data": [
+                    {
+                        "id": 8,
+                        "type": 0
+                    },
+                    {
+                        "id": 9,
+                        "type": 0
+                    },
+                    {
+                        "id": 10,
+                        "type": 0
+                    }
+                ],
+                "type": 0,
+                "name": "Мужчины + операторы"
+            },
+            {
+                "data": [
+                    {
+                        "id": 11,
+                        "type": 0
+                    },
+                    {
+                        "id": 12,
+                        "type": 0
+                    }
+                ],
+                "type": 0,
+                "name": "Union block"
+            },
+            {
+                "data": [
+                    {
+                        "id": 13,
+                        "type": 0
+                    },
+                    {
+                        "id": 14,
+                        "type": 0
+                    }
+                ],
+                "type": 0,
+                "name": "Увлечения"
+            }
+        ],
+        "data": []
+    },
+    "id": 32,
+    "name": "Слушают музыку через Интернет",
+    "size": 24300,
+    "jobId": null,
+    "createDate": "0001-01-01T00:00:00",
+    "updateDate": "2022-01-16T23:03:56.829985+03:00",
+    "status": null,
+    "statusDate": "0001-01-01T00:00:00"
+}

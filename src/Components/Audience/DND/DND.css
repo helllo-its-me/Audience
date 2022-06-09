@@ -1,0 +1,123 @@
+.dnd {
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+.dnd-container {
+  display: flex;
+  font-size: 10px;
+  line-height: 25px;
+  height: 100%;
+}
+
+.tree-audiences {
+  height: calc(100% - 20px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5px;
+}
+
+.dnd-container-for-cells {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: -31px 0px 0px 20px;
+  padding: 10px;
+  width: calc(60% - 20px);
+  height: calc(100% + 31px);
+}
+
+.intersection-block {
+  height: 80%;
+  padding-bottom: 10px;
+}
+
+.cells {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: 'flex-start';
+  flex-wrap: wrap;
+}
+
+.my-gallery-class {
+  max-height: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.dnd-container-for-difference {
+  height: 20%;
+}
+
+.container-for-difference-header {
+  height: 17px;
+}
+
+.container-for-difference-header h6 {
+  text-align: left;
+  font-size: 15px;
+  width: 95%;
+  margin: 0 auto;
+  color: rgba(185, 0, 0, 1);
+  font-weight: 400;
+}
+
+.difference-block {
+  width: 100%;
+  height: calc(100% - 21px);
+  flex-wrap: nowrap;
+  overflow: 'auto';
+  margin-bottom: 4px;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  background-color: #e3c771;
+}
+
+.indrop {
+  color: #666666;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 27px;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 11px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-success {
+  width: 100px;
+}
+
+.difference .indrop {
+  width: calc((100% - 20px) / 3);
+}
+
+.difference .celldiv {
+  height: 100%;
+}
+
+.inputForNameCell {
+  background: none;
+  border: none;
+  height: 15px;
+  margin-left: 15px;
+  color: rgba(0, 106, 23, 1);
+  font-size: 15px;
+  padding-bottom: 3px;
+  width: 100%;
+}
+.inputForNameCell:focus-visible {
+  outline: none;
+}
+.btn:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

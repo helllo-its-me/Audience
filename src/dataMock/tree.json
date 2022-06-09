@@ -1,0 +1,492 @@
+ {
+    "data": [
+        {
+            "id": 2,
+            "parentCategoryId": -1,
+            "name": "1st test category",
+            "useAsSegment": true,
+            "size": 68586682,
+            "updateDate": "2021-04-02T09:01:15.244199+03:00",
+            "segments": [
+                {
+                    "id": 1,
+                    "categoryId": 2,
+                    "name": "num1 segm -num1 cat - 200 000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_google limit 10000000;",
+                    "size": 9999985,
+                    "updateDate": "2021-04-02T11:44:19.72731+03:00"
+                },
+                {
+                    "id": 2,
+                    "categoryId": 2,
+                    "name": "num2 segm -num1 cat - 2000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_between limit 10000000;",
+                    "size": 10000000,
+                    "updateDate": "2021-04-02T11:42:53.144374+03:00"
+                },
+                {
+                    "id": 9,
+                    "categoryId": 2,
+                    "name": "num9 segm -num6 cat - 200 000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_between limit 2000000;",
+                    "size": 2000000,
+                    "updateDate": "2021-04-02T11:46:16.869514+03:00"
+                },
+                {
+                    "id": 11,
+                    "categoryId": 2,
+                    "name": "num11 segm -num6 cat - 200",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_between limit 2000;",
+                    "size": 2000,
+                    "updateDate": "2021-04-02T11:46:40.17696+03:00"
+                },
+                {
+                    "id": 14,
+                    "categoryId": 2,
+                    "name": "new 3",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_otm limit 5000000;",
+                    "size": 4999999,
+                    "updateDate": "2021-04-02T11:45:42.563616+03:00"
+                },
+                {
+                    "id": 15,
+                    "categoryId": 2,
+                    "name": "new 5",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_weborama limit 15000000;",
+                    "size": 14999964,
+                    "updateDate": "2021-04-02T11:47:24.123579+03:00"
+                }
+            ],
+            "nestedCategories": [
+                {
+                    "id": 5,
+                    "parentCategoryId": 2,
+                    "name": "num4 - nested to 1st category",
+                    "useAsSegment": true,
+                    "size": 22222836,
+                    "updateDate": "2021-04-02T09:02:16.787997+03:00",
+                    "segments": [
+                        {
+                            "id": 6,
+                            "categoryId": 5,
+                            "name": "num6 segm -num4 cat - 1",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_adriver limit 10000000;",
+                            "size": 10000000,
+                            "updateDate": "2021-04-02T11:44:39.598554+03:00"
+                        },
+                        {
+                            "id": 7,
+                            "categoryId": 5,
+                            "name": "num7 segm -num4 cat - 2000",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_buzzoola limit 15000000;",
+                            "size": 15000000,
+                            "updateDate": "2021-04-02T11:46:10.088007+03:00"
+                        },
+                        {
+                            "id": 12,
+                            "categoryId": 5,
+                            "name": "new 1",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_adriver limit 15000000;",
+                            "size": 15000000,
+                            "updateDate": "2021-04-02T11:45:13.426974+03:00"
+                        }
+                    ],
+                    "nestedCategories": []
+                },
+                {
+                    "id": 3,
+                    "parentCategoryId": 2,
+                    "name": "num2 - nested to 1st category",
+                    "useAsSegment": true,
+                    "size": 9938768,
+                    "updateDate": "2021-04-02T09:01:24.11899+03:00",
+                    "segments": [
+                        {
+                            "id": 3,
+                            "categoryId": 3,
+                            "name": "num3 segm -num2 cat - 20000",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_otm limit 10000000;",
+                            "size": 9999998,
+                            "updateDate": "2021-04-02T11:43:14.951623+03:00"
+                        }
+                    ],
+                    "nestedCategories": []
+                },
+                {
+                    "id": 4,
+                    "parentCategoryId": 2,
+                    "name": "num3 - nested to 1st category",
+                    "useAsSegment": true,
+                    "size": 38326001,
+                    "updateDate": "2021-04-02T09:01:56.060102+03:00",
+                    "segments": [
+                        {
+                            "id": 4,
+                            "categoryId": 4,
+                            "name": "num4 segm -num3 cat - 20000",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_weborama limit 15000000;",
+                            "size": 14999964,
+                            "updateDate": "2021-04-02T11:43:43.813386+03:00"
+                        },
+                        {
+                            "id": 5,
+                            "categoryId": 4,
+                            "name": "num5 segm -num3 cat - 200 000",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_yota limit 10000000;",
+                            "size": 6172411,
+                            "updateDate": "2021-04-02T11:44:02.256848+03:00"
+                        }
+                    ],
+                    "nestedCategories": [
+                        {
+                            "id": 8,
+                            "parentCategoryId": 4,
+                            "name": "new - parentId 4",
+                            "useAsSegment": false,
+                            "size": 0,
+                            "updateDate": "2021-03-12T14:58:32.372441+03:00",
+                            "segments": [],
+                            "nestedCategories": []
+                        },
+                        {
+                            "id": 6,
+                            "parentCategoryId": 4,
+                            "name": "num5 - nested to num3 category",
+                            "useAsSegment": true,
+                            "size": 18366761,
+                            "updateDate": "2021-04-02T09:02:32.378195+03:00",
+                            "segments": [
+                                {
+                                    "id": 8,
+                                    "categoryId": 6,
+                                    "name": "num8 segm -num5 cat - 20000",
+                                    "type": 0,
+                                    "query": "select miId from sync_users.users_between limit 10000000;",
+                                    "size": 10000000,
+                                    "updateDate": "2021-04-02T11:47:01.534328+03:00"
+                                },
+                                {
+                                    "id": 13,
+                                    "categoryId": 6,
+                                    "name": "new 2",
+                                    "type": 0,
+                                    "query": "select miId from sync_users.users_otm limit 10000000;",
+                                    "size": 9999998,
+                                    "updateDate": "2021-04-02T11:45:33.96592+03:00"
+                                }
+                            ],
+                            "nestedCategories": [
+                                {
+                                    "id": 7,
+                                    "parentCategoryId": 6,
+                                    "name": "num6 - nested to num5 category",
+                                    "useAsSegment": true,
+                                    "size": 8382054,
+                                    "updateDate": "2021-04-02T09:02:39.738309+03:00",
+                                    "segments": [
+                                        {
+                                            "id": 10,
+                                            "categoryId": 7,
+                                            "name": "num10 segm -num6 cat - 2 000 000",
+                                            "type": 0,
+                                            "query": "select miId from sync_users.users_pikweb limit 10000000;",
+                                            "size": 9018601,
+                                            "updateDate": "2021-04-02T11:46:37.536035+03:00"
+                                        },
+                                        {
+                                            "id": 16,
+                                            "categoryId": 7,
+                                            "name": "new 6",
+                                            "type": 0,
+                                            "query": "select miId from sync_users.users_google limit 15000000;",
+                                            "size": 14999982,
+                                            "updateDate": "2021-04-02T11:47:47.002549+03:00"
+                                        }
+                                    ],
+                                    "nestedCategories": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "parentCategoryId": 2,
+            "name": "num2 - nested to 1st category",
+            "useAsSegment": true,
+            "size": 9938768,
+            "updateDate": "2021-04-02T09:01:24.11899+03:00",
+            "segments": [
+                {
+                    "id": 3,
+                    "categoryId": 3,
+                    "name": "num3 segm -num2 cat - 20000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_otm limit 10000000;",
+                    "size": 9999998,
+                    "updateDate": "2021-04-02T11:43:14.951623+03:00"
+                }
+            ],
+            "nestedCategories": []
+        },
+        {
+            "id": 4,
+            "parentCategoryId": 2,
+            "name": "num3 - nested to 1st category",
+            "useAsSegment": true,
+            "size": 38326001,
+            "updateDate": "2021-04-02T09:01:56.060102+03:00",
+            "segments": [
+                {
+                    "id": 4,
+                    "categoryId": 4,
+                    "name": "num4 segm -num3 cat - 20000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_weborama limit 15000000;",
+                    "size": 14999964,
+                    "updateDate": "2021-04-02T11:43:43.813386+03:00"
+                },
+                {
+                    "id": 5,
+                    "categoryId": 4,
+                    "name": "num5 segm -num3 cat - 200 000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_yota limit 10000000;",
+                    "size": 6172411,
+                    "updateDate": "2021-04-02T11:44:02.256848+03:00"
+                }
+            ],
+            "nestedCategories": [
+                {
+                    "id": 8,
+                    "parentCategoryId": 4,
+                    "name": "new - parentId 4",
+                    "useAsSegment": false,
+                    "size": 0,
+                    "updateDate": "2021-03-12T14:58:32.372441+03:00",
+                    "segments": [],
+                    "nestedCategories": []
+                },
+                {
+                    "id": 6,
+                    "parentCategoryId": 4,
+                    "name": "num5 - nested to num3 category",
+                    "useAsSegment": true,
+                    "size": 18366761,
+                    "updateDate": "2021-04-02T09:02:32.378195+03:00",
+                    "segments": [
+                        {
+                            "id": 8,
+                            "categoryId": 6,
+                            "name": "num8 segm -num5 cat - 20000",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_between limit 10000000;",
+                            "size": 10000000,
+                            "updateDate": "2021-04-02T11:47:01.534328+03:00"
+                        },
+                        {
+                            "id": 13,
+                            "categoryId": 6,
+                            "name": "new 2",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_otm limit 10000000;",
+                            "size": 9999998,
+                            "updateDate": "2021-04-02T11:45:33.96592+03:00"
+                        }
+                    ],
+                    "nestedCategories": [
+                        {
+                            "id": 7,
+                            "parentCategoryId": 6,
+                            "name": "num6 - nested to num5 category",
+                            "useAsSegment": true,
+                            "size": 8382054,
+                            "updateDate": "2021-04-02T09:02:39.738309+03:00",
+                            "segments": [
+                                {
+                                    "id": 10,
+                                    "categoryId": 7,
+                                    "name": "num10 segm -num6 cat - 2 000 000",
+                                    "type": 0,
+                                    "query": "select miId from sync_users.users_pikweb limit 10000000;",
+                                    "size": 9018601,
+                                    "updateDate": "2021-04-02T11:46:37.536035+03:00"
+                                },
+                                {
+                                    "id": 16,
+                                    "categoryId": 7,
+                                    "name": "new 6",
+                                    "type": 0,
+                                    "query": "select miId from sync_users.users_google limit 15000000;",
+                                    "size": 14999982,
+                                    "updateDate": "2021-04-02T11:47:47.002549+03:00"
+                                }
+                            ],
+                            "nestedCategories": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "parentCategoryId": 2,
+            "name": "num4 - nested to 1st category",
+            "useAsSegment": true,
+            "size": 22222836,
+            "updateDate": "2021-04-02T09:02:16.787997+03:00",
+            "segments": [
+                {
+                    "id": 6,
+                    "categoryId": 5,
+                    "name": "num6 segm -num4 cat - 1",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_adriver limit 10000000;",
+                    "size": 10000000,
+                    "updateDate": "2021-04-02T11:44:39.598554+03:00"
+                },
+                {
+                    "id": 7,
+                    "categoryId": 5,
+                    "name": "num7 segm -num4 cat - 2000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_buzzoola limit 15000000;",
+                    "size": 15000000,
+                    "updateDate": "2021-04-02T11:46:10.088007+03:00"
+                },
+                {
+                    "id": 12,
+                    "categoryId": 5,
+                    "name": "new 1",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_adriver limit 15000000;",
+                    "size": 15000000,
+                    "updateDate": "2021-04-02T11:45:13.426974+03:00"
+                }
+            ],
+            "nestedCategories": []
+        },
+        {
+            "id": 6,
+            "parentCategoryId": 4,
+            "name": "num5 - nested to num3 category",
+            "useAsSegment": true,
+            "size": 18366761,
+            "updateDate": "2021-04-02T09:02:32.378195+03:00",
+            "segments": [
+                {
+                    "id": 8,
+                    "categoryId": 6,
+                    "name": "num8 segm -num5 cat - 20000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_between limit 10000000;",
+                    "size": 10000000,
+                    "updateDate": "2021-04-02T11:47:01.534328+03:00"
+                },
+                {
+                    "id": 13,
+                    "categoryId": 6,
+                    "name": "new 2",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_otm limit 10000000;",
+                    "size": 9999998,
+                    "updateDate": "2021-04-02T11:45:33.96592+03:00"
+                }
+            ],
+            "nestedCategories": [
+                {
+                    "id": 7,
+                    "parentCategoryId": 6,
+                    "name": "num6 - nested to num5 category",
+                    "useAsSegment": true,
+                    "size": 8382054,
+                    "updateDate": "2021-04-02T09:02:39.738309+03:00",
+                    "segments": [
+                        {
+                            "id": 10,
+                            "categoryId": 7,
+                            "name": "num10 segm -num6 cat - 2 000 000",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_pikweb limit 10000000;",
+                            "size": 9018601,
+                            "updateDate": "2021-04-02T11:46:37.536035+03:00"
+                        },
+                        {
+                            "id": 16,
+                            "categoryId": 7,
+                            "name": "new 6",
+                            "type": 0,
+                            "query": "select miId from sync_users.users_google limit 15000000;",
+                            "size": 14999982,
+                            "updateDate": "2021-04-02T11:47:47.002549+03:00"
+                        }
+                    ],
+                    "nestedCategories": []
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "parentCategoryId": 6,
+            "name": "num6 - nested to num5 category",
+            "useAsSegment": true,
+            "size": 8382054,
+            "updateDate": "2021-04-02T09:02:39.738309+03:00",
+            "segments": [
+                {
+                    "id": 10,
+                    "categoryId": 7,
+                    "name": "num10 segm -num6 cat - 2 000 000",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_pikweb limit 10000000;",
+                    "size": 9018601,
+                    "updateDate": "2021-04-02T11:46:37.536035+03:00"
+                },
+                {
+                    "id": 16,
+                    "categoryId": 7,
+                    "name": "new 6",
+                    "type": 0,
+                    "query": "select miId from sync_users.users_google limit 15000000;",
+                    "size": 14999982,
+                    "updateDate": "2021-04-02T11:47:47.002549+03:00"
+                }
+            ],
+            "nestedCategories": []
+        },
+        {
+            "id": 8,
+            "parentCategoryId": 4,
+            "name": "new - parentId 4",
+            "useAsSegment": false,
+            "size": 0,
+            "updateDate": "2021-03-12T14:58:32.372441+03:00",
+            "segments": [],
+            "nestedCategories": []
+        }
+    ],
+    "page": 1,
+    "pageSize": 10,
+    "totalItems": 7,
+    "totalPages": 1
+}
+
+
+
+
+
+

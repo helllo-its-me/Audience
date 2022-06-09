@@ -1,0 +1,60 @@
+.container-for-audience {
+  width: 95%;
+  margin: 40px auto 0px;
+  max-width: 1430px;
+  height: 89%;
+}
+
+.audience-form-container {
+  display: flex;
+  width: 100%;
+}
+
+.audience-buttons-edit-container {
+  align-self: center;
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.audience-btn-edit {
+  width: 130px;
+  background-color: rgba(53, 76, 122, 0.36);
+  color: white;
+  font-size: 14px;
+  margin-right: 0 !important;
+}
+.audience-btn-edit:hover,
+.audience-btn-save:hover {
+  color: #fff;
+}
+
+.audience-buttons-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.audience-btn-save {
+  width: 100px;
+  background: rgba(95, 150, 201, 1);
+  color: white;
+  margin-right: 10px;
+}
+
+.audience-btn-cancel {
+  width: 100px;
+  background-color: #fff;
+  margin-right: 0 !important;
+}
+
+.audience-filter-container {
+  width: 40%;
+  margin-top: 20px;
+  padding-right: 1px;
+}
+
+.audience {
+  height: 77%;
+}
